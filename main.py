@@ -2,9 +2,9 @@ import os
 import sys
 import time
 import argparse
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 from google import genai 
-from google.genai import types
+from google.genai import types 
 
 if len(sys.argv) < 2:
   print("pwease provide a pwompt uwu")
